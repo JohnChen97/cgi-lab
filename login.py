@@ -24,8 +24,8 @@ entered_password = form.getvalue('password')
 
 if entered_password == password and entered_username == username:
 
-    #print("Set-Cookie:UserID = %s;\r\n" % username)
-    #print("Set-Cookie:Password = %s;\r\n" % password)
+    print("Set-Cookie:UserID = %s;\r\n" % username)
+    print("Set-Cookie:Password = %s;\r\n" % password)
     print("Content-type:text/html\r\n\r\n")
     print('<html>')
     print('<head>')
