@@ -21,7 +21,7 @@ class FollowingTheTAsInstructionsError(Exception):
 # Edit the following two lines:
 # password = form.getvalue('password')
 
-username = '12345'
+username = 'qwert'
 password = '12345'
 
 #if username == entered_username and password == entered_password:
